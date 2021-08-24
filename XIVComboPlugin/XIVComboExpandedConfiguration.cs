@@ -17,7 +17,7 @@ namespace XIVComboExpandedPlugin
         public HashSet<CustomComboPreset> EnabledActions = new();
 
         [JsonProperty("Debug")]
-        public bool EnableSecretCombos = false;
+        public bool EnableSecretCombos = true;
 
         public uint[] DancerDanceCompatActionIDs = new uint[]
         {
